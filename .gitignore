@@ -1,0 +1,65 @@
+# =========================
+# Backend (.NET / C#)
+# =========================
+bin/
+obj/
+app.db
+*.db-shm
+*.db-wal
+*.user
+*.suo
+*.vs/
+*.vscode/
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# Rider / VS Code / Visual Studio
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Frontend (Angular / Node)
+# =========================
+node_modules/
+dist/
+.tmp/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular specific
+.angular/
+.angular/cache/
+.angular/cache/*
+
+# =========================
+# Docker
+# =========================
+/*.tar
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# System / OS
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Env / Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
