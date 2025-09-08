@@ -28,3 +28,7 @@ Para rodar a aplicação completa (backend e frontend) utilizando Docker Compose
 - O banco `app.db` é criado automaticamente (SQLite).
 
 Bom teste! 🚀
+
+A imagem abaixo mostra o resultado da aplicação em funcionamento.
+
+![alt text](image.png)
